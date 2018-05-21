@@ -4,19 +4,35 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Mocker</title>
+  <title>Sandbox</title>
   <meta name="description" content="">
   <meta name="author" content="o93">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ajusa/lit@latest/dist/lit.css" />
-  <link rel="stylesheet" href="css/styles.css?v=0.0">
+  <link rel="stylesheet" href="css/styles.css?v=0">
 
+  <script type="text/javascript" src="js/scripts.js?v=0"></script>
 </head>
 
 <body>
   <div class="c">
-    <h1>Mocker</h1>
+    <header>
+      <nav>
+        <div class="row">
+          <h1 class="6 col"><a href="#">Sandbox</a></h1>
+          <div class="2 col"><a href="#">About</a></div>
+          <div class="2 col"><a href="#">Docs</a></div>
+          <div class="2 col"><a href="#">Login</a></div>
+        </div>
+      </nav>
+      <hr>
+    </header>
+
+    <div id="content">
+      <section>
+        <input class="card" id="command" type="text" placeholder="Campaign -s 5/23-30">
+      </section>
+    </div>
   </div>
-  <script src="js/scripts.js"></script>
 </body>
 </html>
